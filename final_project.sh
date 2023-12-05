@@ -1,6 +1,6 @@
 #!/bin/bash
 
-read "Please enter your symptoms separated by spaces: " symptoms
+read -p "Please enter your symptoms separated by spaces: " symptoms
 symptoms=${symptoms,,}
 
 for symptom in $symptoms
